@@ -2,25 +2,6 @@
 # yarn lockfile v1
 
 
-"@algolia/autocomplete-core@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.7.1.tgz#025538b8a9564a9f3dd5bcf8a236d6951c76c7d1"
-  integrity sha512-eiZw+fxMzNQn01S8dA/hcCpoWCOCwcIIEUtHHdzN5TGB3IpzLbuhqFeTfh2OUhhgkE8Uo17+wH+QJ/wYyQmmzg==
-  dependencies:
-    "@algolia/autocomplete-shared" "1.7.1"
-
-"@algolia/autocomplete-preset-algolia@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-preset-algolia/-/autocomplete-preset-algolia-1.7.1.tgz#7dadc5607097766478014ae2e9e1c9c4b3f957c8"
-  integrity sha512-pJwmIxeJCymU1M6cGujnaIYcY3QPOVYZOXhFkWVM7IxKzy272BwCvMFMyc5NpG/QmiObBxjo7myd060OeTNJXg==
-  dependencies:
-    "@algolia/autocomplete-shared" "1.7.1"
-
-"@algolia/autocomplete-shared@1.7.1":
-  version "1.7.1"
-  resolved "https://registry.yarnpkg.com/@algolia/autocomplete-shared/-/autocomplete-shared-1.7.1.tgz#95c3a0b4b78858fed730cf9c755b7d1cd0c82c74"
-  integrity sha512-eTmGVqY3GeyBTT8IWiB2K5EuURAqhnumfktAEoHxfDY2o7vg2rSnO16ZtIG0fMgt3py28Vwgq42/bVEuaQV7pg==
-
 "@algolia/events@^4.0.1":
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/@algolia/events/-/events-4.0.1.tgz#fd39e7477e7bc703d7f893b556f676c032af3950"
@@ -6329,21 +6310,9 @@ typescript@^4.7.4:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.7.4.tgz#1a88596d1cf47d59507a1bcdfb5b9dfe4d488235"
   integrity sha512-C0WQT0gezHuw6AdY1M2jxUO83Rjf0HP7Sk1DtXj6j1EwkQNZrHAg2XPWlq62oqEhYvONq5pkC2Y9oPljWToLmQ==
 
-typesense-docsearch-css@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.yarnpkg.com/typesense-docsearch-css/-/typesense-docsearch-css-0.3.0.tgz#3b96be6336da4ae1d42ccdb96543072c97c419bf"
-  integrity sha512-+/t9Jz5dwH52Xpk9ikpJaQZs+McX/a4aY+8Iw+IiD9yu9+JJddEA5RYjBgkcQ140gUtp9L213z/V0g2bC3B/hw==
-
-typesense-docsearch-react@^0.2.3:
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/typesense-docsearch-react/-/typesense-docsearch-react-0.2.3.tgz#a6d76ba59d214f687be6906f856d2507a5961b75"
-  integrity sha512-2eODhYFk3KLhwEF+shzcTsiB0zU8GefPFZGzNlGdwdUJiUxjh8SgS7VtylXGdKQZxh33wbWN4wr94CG2WxcIIw==
-  dependencies:
-    "@algolia/autocomplete-core" "1.7.1"
-    "@algolia/autocomplete-preset-algolia" "1.7.1"
-    typesense "^1.4.0-3"
-    typesense-docsearch-css "^0.3.0"
-    typesense-instantsearch-adapter "^2.4.2-1"
+"typesense-docsearch-react@https://github.com/MajidSadrr/typesense-docsearch.js#hnext":
+  version "0.1.0"
+  resolved "https://github.com/MajidSadrr/typesense-docsearch.js#b0756980dd408331863c3f17d980d22cfdc5c326"
 
 typesense-instantsearch-adapter@^2.4.2-1:
   version "2.4.2-1"
@@ -6352,7 +6321,7 @@ typesense-instantsearch-adapter@^2.4.2-1:
   dependencies:
     typesense "^1.4.0-1"
 
-typesense@^1.4.0-1, typesense@^1.4.0-3:
+typesense@^1.4.0-1:
   version "1.4.0-3"
   resolved "https://registry.yarnpkg.com/typesense/-/typesense-1.4.0-3.tgz#3c3aec2b84b7bdabce20f791ed909bd86ddbafef"
   integrity sha512-/O+iCqVSndSo89EIajEINptcNl66Cr/X48q3Uv54caMG9aWbPPn54Llc2B+YP8+r2YyEkFBX5MCozDVrMebkCg==
